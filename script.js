@@ -26,7 +26,6 @@ for (let key of keys) {
             
             }
      })
-
 }
 
 function CleanInput(input) {
@@ -42,10 +41,6 @@ function CleanInput(input) {
             input_array[i] = ` <span class="operator">+</span> `;
         } else if (input_array[i] == "-") {
             input_array[i] = ` <span class="operator">-</span> `;
-        } else if (input_array[i] == "(") {
-            input_array[i] = ` <span class="brackets">(</span> `;
-        } else if (input_array[i] == ")") {
-            input_array[i] = ` <span class="brackets">)</span> `;
         }  else if (input_array[i] == "%") {
             input_array[i] = ` <span class="percent">%</span> `;
         } 
@@ -65,7 +60,6 @@ function CleanOutput( output) {
             output_array.splice(i, 0, ",");
         }
     }
-
     if (decimal) {
         output_array.push(".");
         output_array.push(decimal);
@@ -89,7 +83,6 @@ function validateInput (value) {
     }
 
     return true;
-
 }
 
 function prepareInput (input) {
