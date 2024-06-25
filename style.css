@@ -3,18 +3,13 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    
 }
-
-/* body {
- background: linear-gradient(45deg, black, rgb(32, 83, 102), rgb(19, 40, 19) );} */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-
 }
 
 .app {
@@ -22,7 +17,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 .calculator {
     background-color: #000000;
@@ -50,14 +44,6 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* .solar {
-    float: right;
-    width: 150px;
-    height: 0px;
-    border-radius: 5px;
-    background-color: rgb(26, 24, 39);
-} */
-
 .display {
     min-height: 140px;
     background-color: rgb(241, 241, 241);
@@ -76,7 +62,6 @@
     font-size: 1.25rem;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0.5rem;
-
 }
 
 .display .output {
@@ -105,7 +90,6 @@
     grid-gap: 1rem;
     margin: 0px 10px 10px 10px;
     border-radius: 0.5rem;
-
 }
 
 .keys .key {
@@ -136,7 +120,6 @@
 
 .keys .key:hover {
     box-shadow: inset 10px 10px 8px rgba(0,0, 0, 0.2);
-
 } 
 
 .keys .key.operator span {
